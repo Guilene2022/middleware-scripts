@@ -14,7 +14,7 @@ then
 echo "Must be run as user vagrant !!!!"
 exit 1
 fi
-
+echo "Installation sarted"
 sudo yum update -y
 sudo yum install java-11-openjdk-devel -y
 sudo yum install java-11-openjdk -y
